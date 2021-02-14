@@ -16,7 +16,8 @@
 
         <header>
             <a href="" class="logo"><img src="images/logo.png" alt="logo"></a>
-            <ul>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">What's New</a></li>
@@ -53,9 +54,17 @@
         function imgSlider(e){
             document.querySelector('.starbucks').src = e;
         }
+        
         function changeCircleColor(color){
             const cirle = document.querySelector('.circle');
             cirle.style.background = color;
+        }
+
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggle');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
         }
     </script>
     
