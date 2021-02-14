@@ -1,0 +1,7 @@
+1 - what projects to build?
+
+R: web API
+R1: some business website
+R2: create E-commerce website (focus on backend)
+R3: create and publish one or more simple game
+R4: create your own website portifolio
