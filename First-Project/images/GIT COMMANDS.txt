@@ -1,9 +1,0 @@
-git branch -> shows the master
-git log --oneline -> shows all files of the project, its head and master
-git checkout -b teste -> creates a new ramification called "teste".
-git status -> shows the status of the current branch
-git add . -> to update what will be committed
-git commit -m "comment" -> apply commit to files and "comment between aspas"
-git merge <branch name> -> merges 2 or more branches as one
-git branch -d <branch name> deletes the branch
-git remote -> verify if there is remote repository in github
