@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fullscreen Animated Sticky Header</title>
+</head>
+<body>
+    <header>
+        <img src="images/bg.jpg" alt="banner">
+        <a href="#" class="logo">Brand.</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Fullscreen Animated Header</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis asperiores suscipit dolorum cupiditate soluta autem voluptatem quaerat placeat, debitis tenetur commodi? Dolore voluptate nemo quis quaerat quisquam cumque nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptates nulla veritatis laboriosam odio exercitationem quasi, quidem ut. Consequatur eius itaque perspiciatis accusantium quo enim unde nisi modi eligendi aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ab natus distinctio asperiores, beatae aperiam facere debitis molestias doloremque hic velit voluptate veritatis magnam dolore. Eius odit ducimus ipsum praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus tempore ipsam facilis quasi? Facere fugit expedita soluta repellat sit dolore, ipsam debitis obcaecati perspiciatis vero minima earum cupiditate veniam rerum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi fuga minima exercitationem necessitatibus adipisci nihil a delectus temporibus, porro et quam eius, voluptas alias reprehenderit, repellat vero nulla perferendis. Sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi autem saepe facilis eos nisi sed fuga, iure, sequi, laudantium omnis ullam itaque commodi reprehenderit hic voluptates numquam! Itaque, minima deserunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta accusamus illum quod assumenda sint expedita quia molestias hic? Doloribus, voluptate repellendus a magni non aliquam. Iusto, voluptas quos! Iure, enim.
+        </p>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+    
+</body>
+</html>
